@@ -1,0 +1,63 @@
+:host {
+    ---purple: rgb(91, 131, 252);
+}
+
+.container {
+    padding: 8px;
+}
+
+h1 {
+    color: #014486;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 16px;
+    font-size: 22px;
+    color: #565656;
+}
+
+svg {
+    margin-right: 4px;
+    background-color: #5b83fc;
+    padding: 2px;
+    border-radius: 50px;
+}
+
+p {
+    font-size: 16px;
+    color: var(--slds-g-color-neutral-base-50);
+}
+
+.badges {
+    padding: 4px 8px 4px 4px;
+    border: 1px solid #ececec;
+    display: inline;
+    border-radius: 50px;
+}
+
+.badges a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badges p {
+    font-size: 12px;
+    color: #030e15;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+li {
+    display: inline;
+    margin-left: 8px;
+    margin-top: 8px;
+}

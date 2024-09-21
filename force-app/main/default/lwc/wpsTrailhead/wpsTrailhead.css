@@ -1,0 +1,13 @@
+.custom-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+
+    margin-top: 25px;
+}
+
+.custom-icon {
+    /* --slds-c-icon-color-foreground-default: rgb(1 118 211); */
+    margin-right: 8px;
+}
