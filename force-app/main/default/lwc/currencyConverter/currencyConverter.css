@@ -21,13 +21,13 @@
     background: url(/sfsites/c/resource/currencyConverterAssets/currencyConverterAssets/currencyAppBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 75vh;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 75vh;
 
     padding: 16px;
 }

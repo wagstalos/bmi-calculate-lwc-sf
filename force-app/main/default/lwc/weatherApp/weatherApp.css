@@ -1,13 +1,12 @@
 .app {
     background: #091f43;
-    height: 100vh;
-
+    min-height: 60vh;
 }
 
 .app-card {
     background-color: #fff;
-    max-width: 400px;
-    min-width: 375px;
+    max-width: 300px;
+    min-width: 275px;
     border-radius: 8px;
 }
 
@@ -25,6 +24,7 @@ header {
     font-size: 28px;
     font-weight: 500;
 }
+
 input {
     text-align: center;
     padding: 16px;
@@ -54,19 +54,68 @@ button {
     border-radius: 8px;
 }
 
-.success-msg{
+.success-msg {
     color: #155724;
     background: #d4edda;
-    border-radius:5px ;
+    border-radius: 5px;
     padding: 12px;
     margin: 12px;
 }
 
-
-.error-msg{
+.error-msg {
     color: #721c24;
     background: #f8d7da;
-    border-radius:5px ;
+    border-radius: 5px;
     padding: 12px;
     margin: 12px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.temperature {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 24px;
+}
+
+.description, .location {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.feels_like{
+    width: 100%;
+    padding: 16px;
+}
+
+.humdity{
+    border-left: 1px solid #ccc;
+    width: 100%;
+    padding: 16px;
+}
+
+.weatherImg{
+    max-width: 125px;
+}
+
+.iconFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.cursor{
+    cursor: pointer;
 }
